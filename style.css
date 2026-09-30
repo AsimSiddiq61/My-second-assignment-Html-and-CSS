@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8fcfd;
+}
+
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 8%;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #159bb4;
+}
+
+.links {
+    display: flex;
+    gap: 35px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #555;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login,
+.signup {
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.login {
+    background: white;
+    border: 1px solid #ddd;
+}
+
+.signup {
+    background: #159bb4;
+    color: white;
+    border: none;
+}
+
+
+/* Main */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 70px 8%;
+}
+
+
+/* Left side */
+
+.left {
+    width: 55%;
+}
+
+.left h1 {
+    font-size: 55px;
+    line-height: 1.1;
+    color: #354d76;
+}
+
+.left p {
+    width: 500px;
+    margin: 25px 0;
+    color: #777;
+    line-height: 1.6;
+}
+
+
+/* Email */
+
+.email {
+    display: flex;
+}
+
+.email input {
+    width: 260px;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.email button {
+    padding: 15px 20px;
+    border: none;
+    background: #159bb4;
+    color: white;
+}
+
+
+/* Brands */
+
+.brands {
+    display: flex;
+    gap: 35px;
+    margin-top: 45px;
+    color: #444;
+}
+
+
+/* Right side */
+
+.right {
+    width: 40%;
+    height: 400px;
+    position: relative;
+}
+
+
+/* Credit Card */
+
+.card {
+    position: absolute;
+    right: 0;
+    top: 20px;
+
+    width: 220px;
+    height: 260px;
+
+    padding: 25px;
+
+    border-radius: 18px;
+    background: #159bb4;
+    color: white;
+
+    z-index: 2;
+}
+
+.card h2 {
+    margin-top: 15px;
+}
+
+.card h3 {
+    position: absolute;
+    bottom: 25px;
+}
+
+
+/* Invoice box */
+
+.box {
+    position: absolute;
+    left: 0;
+    top: 70px;
+
+    width: 330px;
+    height: 300px;
+
+    padding: 30px;
+
+    background: white;
+    border-radius: 15px;
+
+    box-shadow: 0 5px 25px #ddd;
+}
+
+.box p {
+    margin-top: 25px;
+    color: #777;
+}
+
+.option {
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    border-radius: 7px;
+}
+
+.pay {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+
+    background: #172b4d;
+    color: white;
+
+    border: none;
+    border-radius: 7px;
+}
